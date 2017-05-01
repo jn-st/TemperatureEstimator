@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.views.WelcomViewController">
+   <children>
+      <ButtonBar layoutX="386.0" layoutY="346.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="15.0">
+        <buttons>
+            <Label text="Язык / Langauge:" />
+            <ChoiceBox fx:id="langChoice" prefHeight="30.0" prefWidth="60.0" />
+          <Button fx:id="continueBtn" mnemonicParsing="false" onAction="#continueBtnClicked" prefHeight="30.0" prefWidth="60.0" text="%welcome.btn.continue" />
+        </buttons>
+      </ButtonBar>
+      <VBox alignment="TOP_CENTER" layoutX="260.0" layoutY="100.0" prefHeight="294.0" prefWidth="600.0" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="%welcome.text.title">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="%welcome.text.main" wrappingWidth="476.244140625" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="45.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
