@@ -1,4 +1,4 @@
-# **TemreatureEstimator**. 
+# **TemperatureEstimator**. 
 ---
 This program calculates the average surface temperature of a planet. 
 -----------------------------------
