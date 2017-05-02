@@ -30,7 +30,7 @@ public class TempEstimator extends javafx.application.Application {
     public void start(Stage primaryStage) throws Exception {
         setMainStage(primaryStage);
 
-        //primaryStage.getIcons().add(new Image(this.getClass().getResourceAsStream("icon.ico")));//
+       // primaryStage.getIcons().add(new Image(this.getClass().getResourceAsStream("icon.ico")));
 
         Locale locale = new Locale("ru");
         ResourceBundle bundle = ResourceBundle.getBundle("lang", locale);
