@@ -1,4 +1,4 @@
-# **TemreatureEstimator**. Created by Jan Stepnov(BSU) and David Karchynski(UBC)
+# **TemperatureEstimator**. 
 ---
 This program calculates the average surface temperature of a planet. 
 -----------------------------------
@@ -8,7 +8,7 @@ The program will then use these numbers to calculate the average temperature of 
 -----------------------------------
 
 ---
-
+Created by Jan Stepnov(BSU) and David Karchynski(UBC)
 
 1. Mass of your star.
 ###
