@@ -1,10 +1,10 @@
-# **TemperatureEstimator**. 
+### **TemperatureEstimator**. 
 ---
-This program calculates the average surface temperature of a planet. 
+### This program calculates the average surface temperature of a planet. 
 -----------------------------------
-You will choose numbers that describe how massive the sun is, how far away the sun is from your planet, how much of the incoming starlight is reflected off the atmosphere and surface of your planet, and how much greenhouse effect is produced by your planet's atmosphere. 
+### You will choose numbers that describe how massive the sun is, how far away the sun is from your planet, how much of the incoming starlight is reflected off the atmosphere and surface of your planet, and how much greenhouse effect is produced by your planet's atmosphere. 
 -----------------------------------
-The program will then use these numbers to calculate the average temperature of your planet.
+### The program will then use these numbers to calculate the average temperature of your planet.
 -----------------------------------
 
 ---
